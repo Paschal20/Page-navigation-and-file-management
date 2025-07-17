@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/node": "^24.0.14",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2"
+  },
+  "name": "typescript-assingment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc && nodemon --exec ts-node server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
